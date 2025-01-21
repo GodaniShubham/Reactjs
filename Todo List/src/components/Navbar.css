@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+.logo{
+    width: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(49, 91, 128);
+    align-items: center;
+}
+
+.nav-list a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.active{
+    color: white;
+    font-weight: 600;
+}
